@@ -7,7 +7,7 @@ input_file = "yourfile.txt" #Save thesis as a text file
 with open(input_file, "r", encoding="latin-1") as f:
     text = f.read()
 
-output_image = "wordcloud_inlet_v0.png" #different versions to see various combinations 
+output_image = "wordcloud_inlet_v0.pdf" #different versions to see various combinations 
 
 # High-resolution dimensions (2550x3300 px ≈ 8.5"×11" at 300 dpi)
 WIDTH_PX = 2550   # corresponds to 8.5 inches
